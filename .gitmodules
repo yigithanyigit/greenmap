@@ -1,6 +1,6 @@
 [submodule "pawmap-backend"]
 	path = pawmap-backend
-	url = ./pawmap-backend
+	url = https://github.com/yigithanyigit/pawmap-backend
 [submodule "pawmap-frontend"]
 	path = pawmap-frontend
-	url = ./pawmap-frontend
+	url = https://github.com/yigithanyigit/pawmap-frontend
