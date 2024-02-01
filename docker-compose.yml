@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./pawmap-frontend 
+    container_name: pawmap_front_c
+    ports:
+      - '80:80'
+    networks:
+      - my_network
+  backend:
+    build: ./pawmap-backend
+    container_name: pawmap_back_c
+    ports:
+      - '8080:8080'
+    depends_on:
+      - frontend
+    environment:
+      - ALLOWED_ORIGIN=http://localhost:80
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge

@@ -1,0 +1,6 @@
+[submodule "pawmap-backend"]
+	path = pawmap-backend
+	url = ./pawmap-backend
+[submodule "pawmap-frontend"]
+	path = pawmap-frontend
+	url = ./pawmap-frontend
