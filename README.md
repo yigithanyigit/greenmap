@@ -1,4 +1,7 @@
-# PawMap
+# GreenMap
+
+User-Generated map with user-pinned green spaces.
+
 ---
 ## How To Install
 - ```docker compose up```
